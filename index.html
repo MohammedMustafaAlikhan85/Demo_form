@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1><big>Registration Form</big></h1>
+</header>
+
+<main>
+    <form action="hello.html">
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
+
+        <h4>Select your class:</h4>
+        <label>
+            <input type="radio" name="class" value="Class XI"> Class XI
+        </label>
+        <label>
+            <input type="radio" name="class" value="Class XII"> Class XII
+        </label>
+
+        <h5>Select your favorite subjects:</h5>
+        <label>
+            <input type="checkbox" name="subject[]" value="Maths"> Maths
+        </label>
+        <label>
+            <input type="checkbox" name="subject[]" value="Physics"> Physics
+        </label>
+        <label>
+            <input type="checkbox" name="subject[]" value="Chemistry"> Chemistry
+        </label>
+        <label>
+            <input type="checkbox" name="subject[]" value="Computer Science"> Computer Science
+        </label>
+
+        <label>Select your city:</label>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Kashmir">Kashmir</option>
+        </select>
+
+        <textarea name="feedback" placeholder="Please give your valuable feedback here" rows="5"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</main>
+
+<footer>
+    <p style="text-align:center; color:gray;">&copy; 2025 Mohammed Mustafa Ali Khan. All rights reserved.</p>
+</footer>
+</p>
+</footer>
+
+</body>
+</html>

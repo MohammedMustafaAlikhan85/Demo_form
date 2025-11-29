@@ -24,8 +24,4 @@ After submitting the form, users are redirected to a Thank You page!
 - CSS3
 
 
-*Screenshot
-[Screenshot](https://github.com/user-attachments/assets/a509686d-f4e4-46fe-a17e-b41f4ef3e97c)
-[Screenshot](https://github.com/user-attachments/assets/f41a40c0-6390-4876-87d8-97f15bde7d11)
-[Screenshot](https://github.com/user-attachments/assets/0f3c5ff7-fe82-41ce-8a08-4bb98fe5d00b)
 
